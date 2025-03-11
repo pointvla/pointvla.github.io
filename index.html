@@ -263,21 +263,10 @@
 <section class="hero is-small">
   <div class="container is-max-desktop">
     <div class="column is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Overview of PointVLA framework</h2>
-        <img src="static\images\pointvla_framework.jpg"/>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="hero is-small">
-  <div class="container is-max-desktop">
-    <div class="column is-centered">
       <h2 class="title is-3">Long Horizon Task</h2>
       <div class="column has-text-centered" style="flex: 2 1 66%;">
         <video autoplay controls muted loop playsinline width="25%">
-          <source src="static\videos\experiments\long_horizon.mp4" type="video/mp4">
+          <source src="static/videos/experiments/long_horizon.mp4" type="video/mp4">
         </video>
       </div>
     </div>
@@ -287,12 +276,26 @@
 <section class="hero is-small">
   <div class="container is-max-desktop">
     <div class="column is-centered">
-      <h2 class="title is-3">Real-vs-Photo Discrimination</h2>
-      <div class="column has-text-centered" style="flex: 2 1 66%;">
-        <video autoplay controls muted loop playsinline width="25%">
-          <source src="static\videos\experiments\discrimination.mp4" type="video/mp4">
-        </video>
-      </div>
+      <h2 class="title is-3">Real-vs-photo discrimination</h2>
+
+        <div class="columns is-vcentered interpolation-panel" style="background-color: #f0f0f0; border-radius: 10px; padding: 1rem; margin-bottom: 2rem;">
+          <div class="column has-text-centered">
+            <h5>
+              <b>A photo of laundry detergent</b>
+            </h5>
+            <video autoplay controls muted loop playsinline width="25%">
+              <source src="static/videos/experiments/fake_object_crop.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column has-text-centered">
+            <h5>
+              <b>A real laundry detergent</b>
+            </h5>
+            <video autoplay controls muted loop playsinline width="25%">
+              <source src="static/videos/experiments/real_object_crop.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
     </div>
   </div>
 </section>
@@ -301,11 +304,25 @@
   <div class="container is-max-desktop">
     <div class="column is-centered">
       <h2 class="title is-3">Height Adaptability</h2>
-      <div class="column has-text-centered" style="flex: 2 1 66%;">
-        <video autoplay controls muted loop playsinline width="25%">
-          <source src="static\videos\experiments\height_adaptability.mp4" type="video/mp4">
-        </video>
-      </div>
+
+        <div class="columns is-vcentered interpolation-panel" style="background-color: #f0f0f0; border-radius: 10px; padding: 1rem; margin-bottom: 2rem;">
+          <div class="column has-text-centered">
+            <h5>
+              <b>Train data height </b>
+            </h5>
+            <video autoplay controls muted loop playsinline width="25%">
+              <source src="static/videos/experiments/train_height.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column has-text-centered">
+            <h5>
+              <b>Test data height</b>
+            </h5>
+            <video autoplay controls muted loop playsinline width="25%">
+              <source src="static/videos/experiments/test_height.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
     </div>
   </div>
 </section>
